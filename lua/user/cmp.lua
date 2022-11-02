@@ -10,6 +10,9 @@ end
 
 require("luasnip/loaders/from_vscode").lazy_load()
 
+--require rails snippets
+require'luasnip'.filetype_extend("ruby", {"rails"})
+
 local check_backspace = function()
 	local col = vim.fn.col(".") - 1
 	return col == 0 or vim.fn.getline("."):sub(col, col):match("%s")
