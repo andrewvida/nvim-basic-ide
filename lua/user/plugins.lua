@@ -103,11 +103,11 @@ return packer.startup(function(use)
   use { "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" }
 
   -- AV plugins
-  use { "tpope/vim-rails"}
-  use {"tpope/vim-fugitive"}
-  use {"tpope/vim-surround"}
-  use {"tpope/vim-unimpaired"}
-  use {'vim-test/vim-test'}
+  use { "tpope/vim-rails" }
+  use { "tpope/vim-fugitive" }
+  use { "tpope/vim-surround" }
+  use { "tpope/vim-unimpaired" }
+  use { "vim-test/vim-test" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
